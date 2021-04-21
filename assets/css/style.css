@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*--------------------------------------------SP CE Buttons*/
+
+.button {
+    color: #fff;
+    width: 350px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 45px;
+    margin: 10px 0;
+    border: none;
+    background-color: #000;
+    font-weight: 700;  
+}
+
+.container { 
+  height: 700px;
+  position: relative;
+  border: none; 
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.button:hover {
+  color: #00CD7F;
+}
+
+
+/* Hvr Rectangle Out */
+
+.hvr-rectangle-out:before {
+  background: #00CD7F;
+  border-radius: 10px;
+   -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  color: #fff;
+}
+.hvr-rectangle-out:hover, .hvr-rectangle-out:focus, .hvr-rectangle-out:active {
+  color: #fff;
+}
+.hvr-rectangle-out:hover:before, .hvr-rectangle-out:focus:before, .hvr-rectangle-out:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
